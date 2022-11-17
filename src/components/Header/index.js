@@ -1,43 +1,54 @@
 import React, { useState } from 'react';
-import Nav from '../Nav';
+import Nav from "../Nav";
+import About from "../About";
+import Contact from "../Contact";
+import Portfolio from "../Portfolio";
+import Resume from "../Resume";
 
 function Header() {
-  const [categories] = useState([
-    {
-      name: 'commercial',
-      description: 'Photos of grocery stores, food trucks, and other commercial projects',
-    },
-    { name: 'portraits', description: 'Portraits of people in my life' },
-    { name: 'food', description: 'Delicious delicacies' },
-    { name: 'landscape', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
-  ]);
+  const [currentPage, handlePageChange] = useState("About");
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  // The renderPage method uses a switch statement to render the appropriate current page
+  const renderPage = () => {
+    switch (currentPage) {
+      case "About":
+        return <About />;
+      case "Portfolio":
+        return <Portfolio />;
+      case "Contact":
+        return <Contact />;
+      case "Resume":
+        return <Resume />;
 
-  const [aboutSelected, setAboutSelected] = useState(false);
-  const [contactFormSelected, setContactFormSelected] = useState(false);
-  const [resumeSelected, setResumeSelected] = useState(false);
-  const [portfolioSelected, setPortfolioSelected] = useState(false);
+      default:
+        return <About />;
+    }
+  };
+
   return (
-<header className="flex-row px-1">
-<h2>
-        <a data-testid="link" href="/">
-          Courtney Van Breda
-        </a>
-      </h2>
-<Nav category={currentCategory.name}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        aboutSelected={aboutSelected}
-        setAboutSelected={setAboutSelected}
-        contactFormSelected={contactFormSelected}
-        setContactFormSelected={setContactFormSelected}
-        resumeSelected={resumeSelected}
-        setResumeSelected={setResumeSelected}
-        portfolioSelected={portfolioSelected}
-        setPortfolioSelected={setPortfolioSelected}
-      ></Nav>
-</header>
+    <div>
+      <nav className="navbar">
+        <div className="navbar-brand">
+          <a
+            className="navbar-item"
+            rel="noreferrer"
+            target="_blank"
+            href="https://github.com/cvanbreda91?tab=repositories"
+          >
+            <span className="content is-large">Courtney Van Breda</span>
+          </a>
+        </div>
+      </nav>
+      {/* Pass the state value and the setter as props to NavTabs */}
+      <Nav
+        currentPage={currentPage}
+        handlePageChange={handlePageChange}
+      />
+      {/* Call the renderPage function passing in the currentPage */}
+      <main>
+        <div>{renderPage(currentPage)}</div>
+      </main>
+    </div>
   );
 }
 

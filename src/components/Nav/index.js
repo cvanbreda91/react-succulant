@@ -1,107 +1,32 @@
-import React, { useEffect } from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers';
+import React from "react";
 
 function Nav(props) {
-  const {
-    categories = [],
-    aboutSelected,
-    currentCategory,
-    setAboutSelected,
-    contactFormSelected,
-    setContactFormSelected,
-    portfolioSelected,
-    setPortfolioSelected,
-    resumeSelected,
-    setResumeSelected,
-    setCurrentCategory,
-  } = props;
-
-  useEffect(() => {
-    document.title = capitalizeFirstLetter(currentCategory.name);
-  }, [currentCategory]);
-
+  const tabs = ["About", "Portfolio", "Contact", "Resume"];
   return (
-    <nav>
-      <ul className="flex-row">
-        <li className={`mx-2 ${aboutSelected && 'navActive'}`}>
-          <span onClick={() => setAboutSelected(true)}>About Me</span>
-        </li>
-        {categories.map((category) => (
+    <div className="tabs is-centered">
+      <ul className="nav nav-tabs">
+        {tabs.map((tab) => (
           <li
-            className={`mx-1 ${currentCategory.name === category.name && !aboutSelected && 'navActive'
-              }`}
-            key={category.name}
+            className={
+              props.currentPage === tab ? "nav-item is-active" : "nav-item"
+            }
+            key={tab}
           >
-            <span
-              onClick={() => {
-                setCurrentCategory(category);
-                setAboutSelected(false);
-              }}
+            <a
+              href={"#" + tab.toLowerCase()}
+              // Whenever a tab is clicked on,
+              // the current page is set through the handlePageChange props.
+              onClick={() => props.handlePageChange(tab)}
+              className={
+                props.currentPage === tab ? "nav-link active" : "nav-link"
+              }
             >
-              {capitalizeFirstLetter(category.name)}
-            </span>
+              {tab}
+            </a>
           </li>
         ))}
-        <li className={`mx-2 ${contactFormSelected && 'navActive'}`}>
-          <span onClick={() => setContactFormSelected(true)}>Contact</span>
-        </li>
-        {categories.map((category) => (
-          <li
-            className={`mx-1 ${currentCategory.name === category.name && !contactFormSelected && 'navActive'
-              }`}
-            key={category.name}
-          >
-            <span
-              onClick={() => {
-                setCurrentCategory(category);
-                setContactFormSelected(false);
-              }}
-            >
-              {capitalizeFirstLetter(category.name)}
-            </span>
-          </li>
-        ))}
-        <li className={`mx-2 ${portfolioSelected && 'navActive'}`}>
-          <span onClick={() => setPortfolioSelected(true)}>Portfolio</span>
-        </li>
-        {categories.map((category) => (
-          <li
-            className={`mx-1 ${currentCategory.name === category.name && !portfolioSelected && 'navActive'
-              }`}
-            key={category.name}
-          >
-            <span
-              onClick={() => {
-                setCurrentCategory(category);
-                setPortfolioSelected(false);
-              }}
-            >
-              {capitalizeFirstLetter(category.name)}
-            </span>
-          </li>
-        ))}
-        <li className={`mx-2 ${resumeSelected && 'navActive'}`}>
-          <span onClick={() => setResumeSelected(true)}>Resume</span>
-        </li>
-        {categories.map((category) => (
-          <li
-            className={`mx-1 ${currentCategory.name === category.name && !resumeSelected && 'navActive'
-              }`}
-            key={category.name}
-          >
-            <span
-              onClick={() => {
-                setCurrentCategory(category);
-                setResumeSelected(false);
-              }}
-            >
-              {capitalizeFirstLetter(category.name)}
-            </span>
-          </li>
-        ))}
-
       </ul>
-    </nav>
+    </div>
   );
 }
 
