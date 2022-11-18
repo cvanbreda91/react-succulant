@@ -33,7 +33,7 @@ function Header() {
             className="navbar-item"
             rel="noreferrer"
             target="_blank"
-            href="https://github.com/cvanbreda91?tab=repositories"
+            href="http://localhost:3000/react-succulant#about"
           >
             <span className="content is-large">Courtney Van Breda</span>
           </a>
