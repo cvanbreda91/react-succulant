@@ -45,7 +45,7 @@ Please email me with questions!
 * cvanbreda91@gmail.com
 
 ## Screenshot
-![website-image]()
+![website-image](https://github.com/cvanbreda91/react-succulant/blob/main/src/assets/2022-11-17%20(1).png?raw=true)
 
 ## Deployed Link
 
