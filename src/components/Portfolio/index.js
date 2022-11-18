@@ -14,12 +14,12 @@ function Portfolio() {
     <Container>
       <Row>
         <Col>
-          <Card style={{ width: '18rem', height: '24rem' }} className="m-2">
-          <Card.Img variant="top" alt="Bark-woof site" src="holder.js/100px180" />
+          <Card style={{ width: '18rem', height: '30rem' }} className="m-2">
+          <Card.Img style={{ height: '18rem' }} variant="top" alt="Bark-woof site" src="https://github.com/cvanbreda91/react-succulant/blob/main/public/assets/img/bark-woof.png?raw=true/100px180" />
             <Card.Body>
               <Card.Title className='card-text'>Bark-Woof</Card.Title>
-              <Card.Text style={{ height: '10rem' }}>
-                A website that allows the user to search a breed of dog which returns facts about that dog breed as well as popular hashtags that are breed specific.
+              <Card.Text>
+                A website that allows the user to search a breed of dog which returns facts about that dog breed as well as hashtags.
               </Card.Text>
               <Button target="_blank" href="https://cvanbreda91.github.io/bark-woof/" variant="dark" className="m-2">Take a Look!</Button>
               <Button target="_blank" href="https://github.com/cvanbreda91/bark-woof" variant="dark" className="m-2">Github</Button>
@@ -27,11 +27,11 @@ function Portfolio() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: '18rem', height: '24rem' }} className="m-2">
-          <Card.Img variant="top" alt="Life Tracker site" src="holder.js/100px180" />
+          <Card style={{ width: '18rem', height: '30rem' }} className="m-2">
+          <Card.Img style={{ height: '18rem' }}variant="top" alt="Life Tracker site" src="https://github.com/cvanbreda91/react-succulant/blob/main/public/assets/img/life-tracker.png?raw=true/100px180" />
             <Card.Body>
               <Card.Title className='card-text'>Life Tracker</Card.Title>
-              <Card.Text style={{ height: '10rem' }}>
+              <Card.Text style={{ height: '9rem' }}>
                 A professional habit tracking site that allows logged in users to add, edit, comment on, and delete blogs and workouts.
               </Card.Text>
               <Button target="_blank" href="https://vast-beach-17756.herokuapp.com/login" variant="dark" className="m-2">Take a Look!</Button>
@@ -40,8 +40,8 @@ function Portfolio() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: '18rem', height: '24rem' }} className="m-2">
-          <Card.Img variant="top" alt="JATE site" src="holder.js/100px180" />
+          <Card style={{ width: '18rem', height: '30rem' }} className="m-2">
+          <Card.Img style={{ height: '18rem' }} variant="top" alt="JATE site" src="https://github.com/cvanbreda91/react-succulant/blob/main/public/assets/img/JATE.png?raw=true/100px180" />
             <Card.Body>
               <Card.Title className='card-text'>Jate</Card.Title>
               <Card.Text style={{ height: '10rem' }}>
@@ -53,8 +53,8 @@ function Portfolio() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: '18rem', height: '24rem' }} className="m-2">
-          <Card.Img variant="top" alt="Tech Now! site" src="holder.js/100px180" />
+          <Card style={{ width: '18rem', height: '30rem' }} className="m-2">
+          <Card.Img style={{ height: '18rem' }}variant="top" alt="Tech Now! site" src="https://github.com/cvanbreda91/react-succulant/blob/main/public/assets/img/Tech-Now.png?raw=true/100px180" />
             <Card.Body>
               <Card.Title className='card-text'>Tech Now!</Card.Title>
               <Card.Text style={{ height: '10rem' }}>
@@ -66,8 +66,8 @@ function Portfolio() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: '18rem', height: '24rem' }} className="m-2">
-          <Card.Img variant="top" alt="Note Taker site" src="https://github.com/cvanbreda91/notes-and-boats/raw/main/public/assets/images/website-2.png?raw=true" />
+          <Card style={{ width: '18rem', height: '30rem' }} className="m-2">
+          <Card.Img style={{ height: '18rem' }} variant="top" alt="Note Taker site" src="https://github.com/cvanbreda91/react-succulant/blob/main/public/assets/img/Note-Taker.png?raw=true/100px180" />
             <Card.Body>
               <Card.Title className='card-text'>Note Taker</Card.Title>
               <Card.Text style={{ height: '10rem' }}>
@@ -79,8 +79,8 @@ function Portfolio() {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: '18rem', height: '24rem' }} className="m-2">
-          <Card.Img variant="top" alt="Weather Dashboard site" src="https://github.com/cvanbreda91/rubber-boots/blob/main/assets/images/Website.gif" />
+          <Card style={{ width: '18rem', height: '30rem' }} className="m-2">
+          <Card.Img style={{ height: '18rem' }} variant="top" alt="Weather Dashboard site" src="https://github.com/cvanbreda91/react-succulant/blob/main/public/assets/img/Weather-dashboard.png?raw=true/100px180" />
             <Card.Body>
               <Card.Title className='card-text'>Weather Dashboard </Card.Title>
               <Card.Text style={{ height: '10rem' }}>
