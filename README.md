@@ -10,7 +10,7 @@ A professional portfolio using react
 * [Features](#features)
 * [Questions](#questions)
 * [Screenshot](#screenshot)
-* [Walkthrough Link](#walkthrough-link)
+* [Deployed Link](#deployed-link)
 
 ## Installation
 After downloading the package, in the command line run `npm install`.

@@ -2,17 +2,17 @@
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
-import About from '..';
+import Footer from '..';
 
 afterEach(cleanup);
 
-describe('About component', () => {
+describe('Footer component', () => {
   it('renders', () => {
-    render(<About />);
+    render(<Footer />);
   });
 
   it('matches snapshot', () => {
-    const { asFragment } = render(<About />);
+    const { asFragment } = render(<Footer />);
 
     expect(asFragment()).toMatchSnapshot();
   });
