@@ -5,13 +5,16 @@ function About() {
       <h1 id="about">Who am I?</h1>
       <div className="my-2">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
-          condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
-          mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum.
-          Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique
-          justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea
-          dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh.
-          Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
+        Courtney is a technology specialist currently employed at Vialto Partners - a recent divestiture of PwC.
+        </p>
+        <p>
+        While working full-time, she has decided to further her career in technology by taking a fullstack web development course through the University of Toronto
+        </p>
+        <p>
+        In relation to fullstack development, she most enjoys back-end technologies like SQL, NoSql, and other databases.
+        </p>
+        <p>
+        In her free time she likes to craft, travel, and spend time with her pets.
         </p>
       </div>
     </section>

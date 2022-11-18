@@ -289,3 +289,17 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+.card-text {
+  color: #000000;
+
+}
+
+@media only screen and (max-width: 1024px) {
+  main {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+}
