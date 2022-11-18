@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-succulant/static/css/main.cdfe6639.chunk.css",
+    "main.js": "/react-succulant/static/js/main.01dd929e.chunk.js",
+    "main.js.map": "/react-succulant/static/js/main.01dd929e.chunk.js.map",
+    "runtime-main.js": "/react-succulant/static/js/runtime-main.0db7948c.js",
+    "runtime-main.js.map": "/react-succulant/static/js/runtime-main.0db7948c.js.map",
+    "static/js/2.80319255.chunk.js": "/react-succulant/static/js/2.80319255.chunk.js",
+    "static/js/2.80319255.chunk.js.map": "/react-succulant/static/js/2.80319255.chunk.js.map",
+    "static/js/3.98c1a132.chunk.js": "/react-succulant/static/js/3.98c1a132.chunk.js",
+    "static/js/3.98c1a132.chunk.js.map": "/react-succulant/static/js/3.98c1a132.chunk.js.map",
+    "index.html": "/react-succulant/index.html",
+    "static/css/main.cdfe6639.chunk.css.map": "/react-succulant/static/css/main.cdfe6639.chunk.css.map",
+    "static/js/2.80319255.chunk.js.LICENSE.txt": "/react-succulant/static/js/2.80319255.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0db7948c.js",
+    "static/js/2.80319255.chunk.js",
+    "static/css/main.cdfe6639.chunk.css",
+    "static/js/main.01dd929e.chunk.js"
+  ]
+}
