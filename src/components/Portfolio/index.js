@@ -73,21 +73,21 @@ function Portfolio() {
                 <Card.Text style={{ height: '10rem' }}>
                   A professional note taking applications to orgainize thoughts and keep track of tasks.
                 </Card.Text>
-                <Button target="_blank" href="https://fathomless-beach-70564.herokuapp.com/" variant="dark" className="m-2">Take a Look!</Button>
+                <Button target="_blank" href="https://patienceplease-app.herokuapp.com/" variant="dark" className="m-2">Take a Look!</Button>
                 <Button target="_blank" href="https://github.com/cvanbreda91/notes-and-boats" variant="dark" className="m-2">Github</Button>
               </Card.Body>
             </Card>
           </Col>
           <Col>
             <Card style={{ width: '18rem', height: '30rem' }} className="m-2">
-              <Card.Img style={{ height: '18rem' }} variant="top" alt="Weather Dashboard site" src="https://github.com/cvanbreda91/react-succulant/blob/main/public/assets/img/Weather-dashboard.png?raw=true/100px180" />
+              <Card.Img style={{ height: '18rem' }} variant="top" alt="Patients Please site" src="https://github.com/cvanbreda91/PatientsPlease/blob/main/client/src/assets/PatientsPlease-Logo-removebg-preview.png?raw=true" />
               <Card.Body>
-                <Card.Title className='card-text'>Weather Dashboard </Card.Title>
+                <Card.Title className='card-text'>PatientsPlease </Card.Title>
                 <Card.Text style={{ height: '10rem' }}>
-                  A website that allows users to view current and future weather conditions.
+                  A website that allows users sign up and track patient data
                 </Card.Text>
                 <Button target="_blank" href="https://cvanbreda91.github.io/rubber-boots/" variant="dark" className="m-2">Take a Look!</Button>
-                <Button target="_blank" href="https://github.com/cvanbreda91/rubber-boots" variant="dark" className="m-2">Github</Button>
+                <Button target="_blank" href="https://github.com/cvanbreda91/PatientsPlease" variant="dark" className="m-2">Github</Button>
               </Card.Body>
             </Card>
           </Col>
