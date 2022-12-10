@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-succulant/static/css/main.cdfe6639.chunk.css",
-    "main.js": "/react-succulant/static/js/main.01dd929e.chunk.js",
-    "main.js.map": "/react-succulant/static/js/main.01dd929e.chunk.js.map",
+    "main.js": "/react-succulant/static/js/main.6a2a0d3e.chunk.js",
+    "main.js.map": "/react-succulant/static/js/main.6a2a0d3e.chunk.js.map",
     "runtime-main.js": "/react-succulant/static/js/runtime-main.0db7948c.js",
     "runtime-main.js.map": "/react-succulant/static/js/runtime-main.0db7948c.js.map",
     "static/js/2.80319255.chunk.js": "/react-succulant/static/js/2.80319255.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.0db7948c.js",
     "static/js/2.80319255.chunk.js",
     "static/css/main.cdfe6639.chunk.css",
-    "static/js/main.01dd929e.chunk.js"
+    "static/js/main.6a2a0d3e.chunk.js"
   ]
 }
